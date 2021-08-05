@@ -1,0 +1,28 @@
+body {
+    font: normal 16pt helvetica;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15pt;
+    width:fit-content;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
