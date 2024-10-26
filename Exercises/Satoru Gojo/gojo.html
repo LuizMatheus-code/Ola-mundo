@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Satoru Gojo</title>
+    <link rel="stylesheet" href="gojo.css">
+    <link rel="icon" href="img/satoru-gojo.png">
+</head>
+<body>
+    <header>
+        <h1>Satoru Gojo - O Feiticeiro Mais Forte</h1>
+    </header>
+    
+    <main>
+        <section class="carousel">
+            <div class="carousel-container">
+                <img src="img/gojo.jpg" width="15px" height="500px" alt="Satoru Gojo 1" class="active">
+                <img src="img/images.jpg" width="15px" height="500px" alt="Satoru Gojo 2">
+                <img src="img/satoru.jpg" width="15px" height="500px" alt="Satoru Gojo 3">
+                <img src="img/thumb.png" width="15px" height="500px" alt="Satoru Gojo 4">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </section>
+
+        <section class="descricao">
+            <h2>Sobre o Satoru Gojo</h2>
+            
+            <p>Satoru Gojo é um personagem fictício da série de mangá e anime Jujutsu Kaisen, criado por Gege Akutami. Ele é conhecido como o feiticeiro mais forte da era moderna, graças ao seu imenso poder e habilidades sobrenaturais.</p>
+
+            <p>Gojo é facilmente reconhecido por seu cabelo branco e venda nos olhos, que esconde seu poder ilimitado. Ele é um professor da Tokyo Jujutsu High, onde treina jovens feiticeiros para combater maldições e proteger a humanidade.</p>
+
+            <p>Além de sua força impressionante, Gojo é conhecido por seu carisma e comportamento despreocupado. Ele frequentemente demonstra uma atitude brincalhona, mas não deve ser subestimado em batalha. Sua técnica amaldiçoada, "Infinity," o torna praticamente invulnerável, e ele possui habilidades que desafiam as leis da física.</p>
+
+            <p>Satoru Gojo é uma figura central em Jujutsu Kaisen, simbolizando o equilíbrio entre poder absoluto e a responsabilidade de usá-lo para o bem maior. Sua presença é um lembrete de que, mesmo em um mundo cheio de maldições e perigos, há aqueles que se erguem como faróis de esperança e proteção.</p>
+        </section>
+
+        <section class="audio-player">
+            <button onclick="playAudio()">Tocar Música</button>
+            <audio id="audio" src="img/m4rkin.mp3"></audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito para os fãs de Satoru Gojo! 💜</p>
+    </footer>
+
+    <script src="gojo.js"></script>
+</body>
+</html>
